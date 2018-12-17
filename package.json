@@ -1,0 +1,27 @@
+{
+    "name": "markdown-to-html",
+    "version": "1.0.0",
+    "description": "build website from template and md files. a tech test",
+    "main": "server.js",
+    "scripts": {
+        "test": "jest",
+        "start": "node server.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.18.3",
+        "express": "^4.16.4",
+        "glob": "^7.1.3",
+        "handlebars": "^4.0.12",
+        "jsdom": "^13.0.0",
+        "showdown": "^1.9.0"
+    },
+    "devDependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-preset-env": "^1.7.0",
+        "jest": "^23.6.0",
+        "superagent": "^4.0.0",
+        "supertest": "^3.3.0"
+    }
+}
