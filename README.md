@@ -2,9 +2,9 @@
 
 This node application takes markdown files, turns them into HTML and inserts the HTML into a common HTML template.
 
-It uses Showdown to convert markdown into HTM and Handlebars to insert the HTML into a template file.
+It uses Showdown to convert markdown into HTML and Handlebars to insert the HTML into a template file.
 
-Tests are build using Jest.
+Tests are built using Jest.
 
 # How to run
 
@@ -31,7 +31,7 @@ Test will run to cover 3 areas:
 - Veryify body html is from relevant index.md
 - Non matching paths return 404
 
-Original test specificion ...
+Original test specificion follows ...
 
 # Static Content challenge
 
