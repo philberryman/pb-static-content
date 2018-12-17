@@ -13,7 +13,6 @@ Navigate to diretory
 
 ```console
 ~$ npm install
-~$ npm test
 ~$ npm start
 ```
 
