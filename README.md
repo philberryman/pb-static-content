@@ -31,7 +31,7 @@ Test will run to cover 3 areas:
 - Veryify body html is from relevant index.md
 - Non matching paths return 404
 
-Original test specificion follows ...
+Original challenge specification follows ...
 
 # Static Content challenge
 
