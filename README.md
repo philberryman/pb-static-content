@@ -1,3 +1,38 @@
+# Static Content Challenge
+
+This node application takes markdown files, turns them into HTML and inserts the HTML into a common HTML template.
+
+It uses Showdown to convert markdown into HTM and Handlebars to insert the HTML into a template file.
+
+Tests are build using Jest.
+
+# How to run
+
+Clone repo
+Navigate to diretory
+
+```console
+~$ npm install
+~$ npm test
+~$ npm start
+```
+
+View any of the files on localhost (eg. http://localhost:8080/about-page)
+
+# Running Unit Tests with Jest
+
+```console
+~$ npm test
+```
+
+Test will run to cover 3 areas:
+
+- Valid paths return 200 status
+- Veryify body html is from relevant index.md
+- Non matching paths return 404
+
+Original test specificion ...
+
 # Static Content challenge
 
 **NB: Please do not fork this repository, to avoid your solution being visible from this repository's GitHub page. Please clone this repository and submit your solution as a separate repository.**
@@ -10,8 +45,8 @@ This repository contains a `template.html` template file and a `content` folder 
 
 The application should be shipped with three tests:
 
-* one that verifies that requests to valid URLs return a 200 HTTP status code
-* one that verifies that requests to valid URLS return a body that contains the HTML generated from the relevant `index.md` markdown file
-* one that verifies that requests to URLs that do not match content folders return a 404 HTTP status code
+- one that verifies that requests to valid URLs return a 200 HTTP status code
+- one that verifies that requests to valid URLS return a body that contains the HTML generated from the relevant `index.md` markdown file
+- one that verifies that requests to URLs that do not match content folders return a 404 HTTP status code
 
 Your application may make use of open-source code libraries. It is entirely up to you how the application performs the challenge.
