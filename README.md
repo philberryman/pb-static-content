@@ -2,14 +2,14 @@
 
 This node application takes markdown files, turns them into HTML and inserts the HTML into a common HTML template.
 
-It uses Showdown to convert markdown into HTML and Handlebars to insert the HTML into a template file.
+It uses Showdown to convert markdown into HTML and Handlebars.js to insert the HTML into a template file.
 
 Tests are built using Jest.
 
 # How to run
 
-Clone repo
-Navigate to diretory
+- Clone repo
+- Navigate to directory
 
 ```console
 ~$ npm install
